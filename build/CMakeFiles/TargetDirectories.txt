@@ -1,0 +1,7 @@
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/build/CMakeFiles/install.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/build/CMakeFiles/list_install_components.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/build/CMakeFiles/rebuild_cache.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/build/CMakeFiles/Ogre_lessons.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/build/CMakeFiles/install/strip.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/build/CMakeFiles/install/local.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/build/CMakeFiles/edit_cache.dir

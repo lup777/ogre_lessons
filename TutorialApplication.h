@@ -24,6 +24,8 @@ class TutorialApplication : public BaseApplication
 public:
     TutorialApplication(void);
     virtual ~TutorialApplication(void);
+    virtual void createCamera();
+    virtual void createViewports();
 
 protected:
     virtual void createScene(void);

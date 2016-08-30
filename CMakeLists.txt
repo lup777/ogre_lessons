@@ -26,9 +26,9 @@ if(WIN32)
 endif(WIN32)
  
 if(UNIX)
-	if(EXISTS "/usr/lib/OGRE/cmake")
+	if(EXISTS "/usr/lib64/OGRE/cmake")
 
-	  set(CMAKE_MODULE_PATH "/usr/lib/OGRE/cmake/;${CMAKE_MODULE_PATH}")
+	  set(CMAKE_MODULE_PATH "/usr/lib64/OGRE/cmake/;${CMAKE_MODULE_PATH}")
 	  set(OGRE_SAMPLES_INCLUDEPATH "/usr/share/OGRE/samples/Common/include/") # We could just *assume* that developers uses this basepath : /usr
 
 	elseif(EXISTS "/usr/local/lib/OGRE/cmake")

@@ -49,3 +49,58 @@ make[1]: выход из каталога «/home/qtkr64/work/tmp/ogre3d/ogre_le
 make: *** [Makefile:126: cmTC_6effa/fast] Ошибка 2
 
 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lup/src/ogre_lessons/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c288f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c288f.dir/build.make CMakeFiles/cmTC_c288f.dir/build
+gmake[1]: вход в каталог «/home/lup/src/ogre_lessons/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_c288f.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c288f.dir/CheckSymbolExists.c.o   -c /home/lup/src/ogre_lessons/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c288f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c288f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c288f.dir/CheckSymbolExists.c.o  -o cmTC_c288f -rdynamic 
+CMakeFiles/cmTC_c288f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+CMakeFiles/cmTC_c288f.dir/build.make:97: ошибка выполнения рецепта для цели «cmTC_c288f»
+gmake[1]: *** [cmTC_c288f] Ошибка 1
+gmake[1]: выход из каталога «/home/lup/src/ogre_lessons/CMakeFiles/CMakeTmp»
+Makefile:126: ошибка выполнения рецепта для цели «cmTC_c288f/fast»
+gmake: *** [cmTC_c288f/fast] Ошибка 2
+
+File /home/lup/src/ogre_lessons/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lup/src/ogre_lessons/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_57e8d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_57e8d.dir/build.make CMakeFiles/cmTC_57e8d.dir/build
+gmake[1]: вход в каталог «/home/lup/src/ogre_lessons/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_57e8d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_57e8d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_57e8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57e8d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_57e8d.dir/CheckFunctionExists.c.o  -o cmTC_57e8d -rdynamic -lpthreads 
+/usr/lib64/gcc/x86_64-slackware-linux/5.3.0/../../../../x86_64-slackware-linux/bin/ld: cannot find -lpthreads
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+CMakeFiles/cmTC_57e8d.dir/build.make:97: ошибка выполнения рецепта для цели «cmTC_57e8d»
+gmake[1]: *** [cmTC_57e8d] Ошибка 1
+gmake[1]: выход из каталога «/home/lup/src/ogre_lessons/CMakeFiles/CMakeTmp»
+Makefile:126: ошибка выполнения рецепта для цели «cmTC_57e8d/fast»
+gmake: *** [cmTC_57e8d/fast] Ошибка 2
+
+

@@ -53,6 +53,14 @@ void TutorialApplication::createScene(void)
   directionalLight->setSpecularColour(Ogre::ColourValue(.4, 0, 0));
 
   directionalLight->setDirection(Ogre::Vector3(0, -1, 1));
+
+  Ogre::Light* pointLight = mSceneMgr->createLight("pointLight");
+  pointLight->setType(Ogre::Light::LT_POINT);
+
+  pointLight->setDiffuseColour(.3, .3, .3);
+  pointLight->setSpecularColour(.3, .3, .3);
+
+  pointLight->setPosition(Ogre::Vector3(0, 150, 250));
 }
 
 void TutorialApplication::createCamera()

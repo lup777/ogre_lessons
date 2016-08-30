@@ -1,0 +1,7 @@
+/home/lup/src/ogre_lessons/build_druid/CMakeFiles/install.dir
+/home/lup/src/ogre_lessons/build_druid/CMakeFiles/list_install_components.dir
+/home/lup/src/ogre_lessons/build_druid/CMakeFiles/rebuild_cache.dir
+/home/lup/src/ogre_lessons/build_druid/CMakeFiles/Ogre_lessons.dir
+/home/lup/src/ogre_lessons/build_druid/CMakeFiles/install/strip.dir
+/home/lup/src/ogre_lessons/build_druid/CMakeFiles/install/local.dir
+/home/lup/src/ogre_lessons/build_druid/CMakeFiles/edit_cache.dir

@@ -1,0 +1,25 @@
+23:48:12: Creating resource group General
+23:48:12: Creating resource group Internal
+23:48:12: Creating resource group Autodetect
+23:48:12: SceneManagerFactory for type 'DefaultSceneManager' registered.
+23:48:12: Registering ResourceManager for type Material
+23:48:12: Registering ResourceManager for type Mesh
+23:48:12: Registering ResourceManager for type Skeleton
+23:48:12: MovableObjectFactory for type 'ParticleSystem' registered.
+23:48:12: ArchiveFactory for archive type FileSystem registered.
+23:48:12: ArchiveFactory for archive type Zip registered.
+23:48:12: ArchiveFactory for archive type EmbeddedZip registered.
+23:48:12: DDS codec registering
+23:48:12: FreeImage version: 3.15.0
+23:48:12: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+23:48:12: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,sti
+23:48:12: Registering ResourceManager for type HighLevelGpuProgram
+23:48:12: Registering ResourceManager for type Compositor
+23:48:12: MovableObjectFactory for type 'Entity' registered.
+23:48:12: MovableObjectFactory for type 'Light' registered.
+23:48:12: MovableObjectFactory for type 'BillboardSet' registered.
+23:48:12: MovableObjectFactory for type 'ManualObject' registered.
+23:48:12: MovableObjectFactory for type 'BillboardChain' registered.
+23:48:12: MovableObjectFactory for type 'RibbonTrail' registered.
+23:48:12: Loading library /usr/local/lib/OGRE/RenderSystem_GL
+23:48:12: OGRE EXCEPTION(7:InternalErrorException): Could not load dynamic library /usr/local/lib/OGRE/RenderSystem_GL.  System Error: /usr/local/lib/OGRE/RenderSystem_GL.so.1.9.0: cannot open shared object file: No such file or directory in DynLib::load at /tmp/SBo/sinbad-ogre-108ab0bcc696/OgreMain/src/OgreDynLib.cpp (line 109)

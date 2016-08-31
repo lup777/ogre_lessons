@@ -1,7 +1,6 @@
-/home/lup/src/ogre_lessons/CMakeFiles/install.dir
-/home/lup/src/ogre_lessons/CMakeFiles/list_install_components.dir
-/home/lup/src/ogre_lessons/CMakeFiles/rebuild_cache.dir
-/home/lup/src/ogre_lessons/CMakeFiles/Ogre_lessons.dir
-/home/lup/src/ogre_lessons/CMakeFiles/install/strip.dir
-/home/lup/src/ogre_lessons/CMakeFiles/install/local.dir
-/home/lup/src/ogre_lessons/CMakeFiles/edit_cache.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/CMakeFiles/install.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/CMakeFiles/list_install_components.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/CMakeFiles/Ogre_lessons.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/CMakeFiles/install/local.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/CMakeFiles/rebuild_cache.dir
+/home/qtkr64/work/tmp/ogre3d/ogre_lessons/CMakeFiles/edit_cache.dir

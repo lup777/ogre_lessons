@@ -114,7 +114,7 @@ add_executable(Ogre_lessons WIN32 ${HDRS} ${SRCS})
  
 set_target_properties(Ogre_lessons PROPERTIES DEBUG_POSTFIX _d)
  
-target_link_libraries(Ogre_lessons ${OGRE_LIBRARIES} ${OIS_LIBRARIES} ${OGRE_Overlay_LIBRARIES})
+target_link_libraries(Ogre_lessons ${OGRE_LIBRARIES} ${OIS_LIBRARIES} ${OGRE_Overlay_LIBRARIES} ${OGRE_Terrain_LIBRARIES})
  
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/dist/bin)
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/dist/media)

@@ -1,12 +1,12 @@
 [
 {
-  "directory": "/home/lup/src/ogre_lessons",
-  "command": "/usr/bin/c++   -DBOOST_ALL_NO_LIB -I/usr/include/OIS -I/usr/include/OGRE -I/usr/share/OGRE/samples/Common/include -I/usr/include/OGRE/Overlay  -O2 -g -DNDEBUG   -o CMakeFiles/Ogre_lessons.dir/BaseApplication.cpp.o -c /home/lup/src/ogre_lessons/BaseApplication.cpp",
-  "file": "/home/lup/src/ogre_lessons/BaseApplication.cpp"
+  "directory": "/home/qtkr64/work/tmp/ogre3d/ogre_lessons",
+  "command": "/usr/bin/c++   -DBOOST_ALL_NO_LIB -I/usr/include/OIS -I/usr/include/OGRE -I/usr/share/OGRE/samples/Common/include -I/usr/include/OGRE/Overlay  -O2 -g -DNDEBUG   -o CMakeFiles/Ogre_lessons.dir/BaseApplication.cpp.o -c /home/qtkr64/work/tmp/ogre3d/ogre_lessons/BaseApplication.cpp",
+  "file": "/home/qtkr64/work/tmp/ogre3d/ogre_lessons/BaseApplication.cpp"
 },
 {
-  "directory": "/home/lup/src/ogre_lessons",
-  "command": "/usr/bin/c++   -DBOOST_ALL_NO_LIB -I/usr/include/OIS -I/usr/include/OGRE -I/usr/share/OGRE/samples/Common/include -I/usr/include/OGRE/Overlay  -O2 -g -DNDEBUG   -o CMakeFiles/Ogre_lessons.dir/TutorialApplication.cpp.o -c /home/lup/src/ogre_lessons/TutorialApplication.cpp",
-  "file": "/home/lup/src/ogre_lessons/TutorialApplication.cpp"
+  "directory": "/home/qtkr64/work/tmp/ogre3d/ogre_lessons",
+  "command": "/usr/bin/c++   -DBOOST_ALL_NO_LIB -I/usr/include/OIS -I/usr/include/OGRE -I/usr/share/OGRE/samples/Common/include -I/usr/include/OGRE/Overlay  -O2 -g -DNDEBUG   -o CMakeFiles/Ogre_lessons.dir/TutorialApplication.cpp.o -c /home/qtkr64/work/tmp/ogre3d/ogre_lessons/TutorialApplication.cpp",
+  "file": "/home/qtkr64/work/tmp/ogre3d/ogre_lessons/TutorialApplication.cpp"
 }
 ]

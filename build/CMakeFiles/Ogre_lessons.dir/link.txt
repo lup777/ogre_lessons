@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -g -DNDEBUG   CMakeFiles/Ogre_lessons.dir/BaseApplication.cpp.o CMakeFiles/Ogre_lessons.dir/TutorialApplication.cpp.o  -o dist/bin/Ogre_lessons -rdynamic -lOgreMain -lboost_thread -lboost_date_time -lboost_system -lboost_atomic -lboost_chrono -lOIS -lOgreOverlay -lOgreTerrain 

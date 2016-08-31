@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Ogre_lessons.dir/TutorialApplication.cpp.o"
   "dist/bin/Ogre_lessons.pdb"
   "dist/bin/Ogre_lessons"
+  "dist/bin/Ogre_lessons.pdb"
+  "CMakeFiles/CMakeRelink.dir/Ogre_lessons"
 )
 
 # Per-language clean rules from dependency scanning.
